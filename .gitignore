@@ -1,25 +1,14 @@
 # Ambientes virtuais
 venv/
-.env/
+AT10/
 
-# Arquivos de cache do Python
+# Cache e build
 __pycache__/
+.pytest_cache/
 *.pyc
 *.pyo
 *.pyd
 
 # Configurações locais
-.idea/
 .vscode/
-*.log
-*.db
-
-# Arquivos do pytest
-.pytest_cache/
-.htmlcov/
-*.coverage
-
-# Pastas de build
-build/
-dist/
-*.egg-info/
+.idea/
